@@ -10,4 +10,5 @@ SELECT current_database() AS banco_atual,   -- função  (ou variável) nativa d
 
 CREATE DATABASE db_universidade; -- para criar um DATABASE nós utilizamos o CREATE DATABASE db_nome.
 
-COMMENT ON DATABASE db_universidade IS 'Aula 06 - CRUD'; -- Utilizamos COMMENT ON DATABASE db_nome IS '.......' serve justamente para adicionar, alterar ou remover uma descrição do database
+COMMENT ON DATABASE db_universidade IS 'Aula 06 - CRUD'; -- Utilizamos COMMENT ON DATABASE db_nome IS '.......' serve justamente para 
+-- adicionar, alterar ou remover uma descrição do database
